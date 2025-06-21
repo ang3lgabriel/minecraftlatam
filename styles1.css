@@ -1,0 +1,149 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 120vh;
+  padding: 0;
+}
+
+.addons{
+  padding: 0;
+  background-color: rgba(0,0,0,0.6);
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 15px;
+  text-align: center;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+  margin:10px;
+}
+nav {
+  background: rgb(0 0 0 / 27%);
+  padding: 60px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+Imagen_addons{
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  text-align: after;
+  border-radius: 15px;
+  animation: fadeIn 2s ease-in-out;
+  margin-bottom: 30px;
+  justify-content: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #00ffcc;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.redes {
+  padding: 3rem 1rem;
+  background: #1a1a1a;
+  text-align: center;
+}
+
+.redes h2 {
+  font-size: 2rem;
+  color: #00ffcc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #00cc99;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #009977;
+  transform: scale(1.05);
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  background: #000;
+  font-size: 0.9rem;
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.fade-in-up {
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+button{
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #00cc99;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  
+}
+.button :hover {
+  background-color: #009977;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
