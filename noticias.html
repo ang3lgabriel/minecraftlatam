@@ -3,30 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Noticias - Minecraft LATAM</title>
+  <meta name="description" content="Únete al grupo oficial de Minecraft LATAM en WhatsApp y forma parte de la comunidad más activa de Minecraft en América Latina." />
+  <title>Minecraft LATAM</title>
   <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="logo.png" />
+  <link rel="icon" href="logo.png">
+  <style>
+    .overlay {
+      background-color: #2b2b2b;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 800px;
+      box-shadow: 0 0 15px rgba(0, 188, 212, 0.1);
+      text-align: center;
+    }
+
+    .Imagen_addons {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .overlay h1 {
+      color: #00bcd4;
+      margin-bottom: 10px;
+    }
+
+    .overlay a button {
+      background-color: #00bcd4;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+
+    .overlay a button:hover {
+      background-color: #0097a7;
+    }
+  </style>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="noticias.html">Noticias</a></li>
-      <li><a href="addons.html">Addons</a></li>
-      <li><a href="contactanos.html">Contáctanos</a></li>
-    </ul>
-  </nav>
-
-  <div class="overlay fade-in">
-    <h1>¡Nueva pagina beta!</h1>
-    <p>Minecraft LATAM lanza su nueva pagina web !</p>
-  </div>
-
-  <div class="overlay fade-in">
-    <h1>!!Pronto nuevo servidor¡¡</h1>
-    <p>Muy pronto esperalo.</p>
-  </div>
-<main>
+   <section class="fade-in">
+      <nav>
+        <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="addons.html">Addons</a></li>
+        <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+      </nav>
+   </section>
+  <header class="hero">
+    <div class="overlay">
+      <h1 class="fade-in">!!Pagina en version beta¡¡</h1>
+      <p class="fade-in">sugerencia en contactanos</p>
+    </div>  
+    <div class="overlay">
+      <h1 class="fade-in">!!Estamos trabajando para tener un servidor¡¡</h1>
+      <p class="fade-in">muy pronto esperalo</p>
+    </div>
+  </header>
+  <main>
     <section class="redes fade-in-up">
       <h2>Redes Sociales</h2>
       <p>Sé parte de nuestro grupo en WhatsApp:</p>
